@@ -32,18 +32,21 @@ layout_mode = 2
 texture = ExtResource("1_1kem5")
 stretch_mode = 3
 
-[node name="Play" type="TextureButton" parent="HBoxContainer/VBoxContainer"]
+[node name="Play" type="Button" parent="HBoxContainer/VBoxContainer"]
 layout_mode = 2
-texture_normal = ExtResource("2_65u12")
+icon = ExtResource("2_65u12")
+flat = true
 script = ExtResource("3_6fhol")
 
-[node name="Options" type="TextureButton" parent="HBoxContainer/VBoxContainer"]
+[node name="Options" type="Button" parent="HBoxContainer/VBoxContainer"]
 layout_mode = 2
-texture_normal = ExtResource("3_e00x5")
+icon = ExtResource("3_e00x5")
+flat = true
 
-[node name="About" type="TextureButton" parent="HBoxContainer/VBoxContainer"]
+[node name="About" type="Button" parent="HBoxContainer/VBoxContainer"]
 layout_mode = 2
-texture_normal = ExtResource("4_b4xns")
+icon = ExtResource("4_b4xns")
+flat = true
 
 [node name="Version" type="TextureRect" parent="HBoxContainer/VBoxContainer"]
 layout_mode = 2
