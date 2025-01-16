@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqie6omkt2fss"]
+[gd_scene load_steps=3 format=3 uid="uid://bqie6omkt2fss"]
 
 [ext_resource type="Texture2D" uid="uid://0wvijmwcgvd2" path="res://assets/demo/play_modules.png" id="1_meirt"]
+[ext_resource type="PackedScene" uid="uid://bp5xqrgpvv1vu" path="res://assets/scenes/buttonslist.tscn" id="2_a7705"]
 
 [node name="MarginContainer" type="MarginContainer"]
 offset_right = 40.0
@@ -22,3 +23,6 @@ custom_minimum_size = Vector2(600, 90)
 layout_mode = 2
 texture = ExtResource("1_meirt")
 expand_mode = 2
+
+[node name="Buttonslist" parent="HBoxContainer/VBoxContainer" instance=ExtResource("2_a7705")]
+layout_mode = 2
